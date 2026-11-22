@@ -15,7 +15,7 @@ Started 22 November 2026 in the Rezzo project. Read this first in any new projec
 ## Still to do
 1. Cloudflare: Workers & Pages, then Create, then import this repo (no build command, deploy command `npx wrangler deploy`), then add the custom domain effmarvel.com.
 2. Email: Cloudflare Email Routing so hello@effmarvel.com forwards to the owner's Gmail.
-3. Replace the drawn phone mock-ups on /lastprice/ and /lionsvogue/ with real phone screenshots from the owner.
+3. Drawn mock-ups on /lastprice/ and /lionsvogue/ approved by owner as they are.
 4. Add real numbers to each "Results so far" section. Never invent them.
 6. Add an og:image (public/img/og.png is referenced but doesn't exist yet).
 7. tavola.vip: owner chose a case study (done). tavola.vip confirmed live by owner.
