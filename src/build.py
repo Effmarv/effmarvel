@@ -22,7 +22,7 @@ HEAD = """<!doctype html>
 </div></nav>
 """
 FOOT = """<footer><div class="wrap"><span>© 2026 Marvelous Effiong</span>
-<span><a href="https://rezzo.co.uk">Rezzo</a> · <a href="https://lastprice.ng">LastPrice.ng</a> · <a href="https://lionsvogue.com">Lions Vogue</a></span></div></footer>
+<span><a href="https://rezzo.co.uk">Rezzo</a> · <a href="https://lastprice.ng">LastPrice.ng</a> · <a href="https://lionsvogue.com">Lions Vogue</a> · <a href="https://tavola.vip">TAVOLA.VIP</a></span></div></footer>
 <script src="/site.js" defer></script></body></html>
 """
 
@@ -145,6 +145,41 @@ d("Discovery by city","Events are filtered by state and party type, with a live 
     ("results","Results so far","""<p>Lions Vogue is live at <a href="https://lionsvogue.com">lionsvogue.com</a> and registered with the Corporate Affairs Commission.</p>
 <div class="note">Numbers to add: events listed, tickets sold and organisers on board.</div>"""),
     ("learned","What I learned","""<p>In a marketplace, trust is the product. Approving organisers and giving every buyer a scannable ticket did more for sales than any feature on the page.</p>"""),
+  ],
+  next=("/tavola/","TAVOLA.VIP"))
+
+PAGES["tavola"] = dict(
+  title="TAVOLA.VIP", url="https://tavola.vip",
+  desc="Case study: TAVOLA.VIP, event software for planners: 3D invitations, QR seating signs, a design studio and team access.",
+  eyebrow="Case study · Events · 2026",
+  h1="TAVOLA.VIP: modern events, beautifully organised",
+  lead="Software for event planners. Design invitations and printed QR signs, send 3D invitation links, collect replies, seat every guest and run the day with your own teams. Weddings, birthdays, galas and conferences, all in one place.",
+  facts=[("Role","Founder, product &amp; build"),("Market","Event planners, UK, Europe &amp; beyond"),("Platform","Web, on any phone"),("Price","Per event, from £29")],
+  gallery=[(img("tavola-home","TAVOLA.VIP homepage with a QR seating sign"),"Printed QR sign: find your table"),
+           (img("tavola-designs","Invitation designs"),"20 painted invitation designs"),
+           (img("tavola-create","Create an invitation"),"Create an invitation in 3 steps"),
+           (img("tavola-pricing","Pricing per event"),"Simple pricing, per event"),
+           (img("tavola-planner","Planner portal demo"),"The planner's portal")],
+  sections=[
+    ("problem","The problem","""<p>Planning an event means juggling a guest spreadsheet, a printer, a seating chart on paper, a WhatsApp group with the caterer, and a hundred guests asking "where am I sitting?" at the door.</p>
+<p>Planners were paying for separate tools for invitations, RSVPs and seating, then retyping the same guest list into each one, and printing signs that went out of date the moment someone changed tables.</p>"""),
+    ("decisions","Key decisions","""
+"""+d("One guest list drives everything","Invitations, replies, seating, place cards and the guest page all come from the same list, so a change in one place updates every printed QR sign and page.")+
+d("QR signs instead of printed seating charts","Guests scan, type their name and see their table and tablemates. Late changes never mean reprinting.")+
+d("Pay per event, not a subscription","Planners pay when an event goes live, in their own currency, across 9 currencies including GBP, EUR and NGN. Upgrading later only charges the difference.")+
+d("Teams instead of one shared login","Decorators, caterers and venue staff each see only the parts they need. Allergy details only reach teams that handle the menu, and every change is logged.")+
+d("Try everything before paying","A free account and a public demo let planners build a whole event before they spend anything.")),
+    ("built","What I built","""<ul>
+<li><b>A design studio</b> for invitations and signs, a Canva-style editor with templates, 13 fonts, foil and letterpress finishes, ornaments and a styled event QR code.</li>
+<li><b>Print-ready files:</b> posters, A4 signs, table tents, place cards with each guest's own QR, and stickers, with bleed and crop marks.</li>
+<li><b>3D invitation links</b> in 20 designs that open like real paper, with smart replies covering plus-ones, meals, allergies and custom questions.</li>
+<li><b>A QR event page</b> where guests can find their seat and see the live programme, menu, map, Wi-Fi and photo album.</li>
+<li><b>Per-sign scan tracking</b>, so planners can see which signs get used.</li>
+<li><b>Planner and team portals</b>, plus an admin area and Stripe payments in 9 currencies.</li>
+</ul>"""),
+    ("results","Results so far","""<p>TAVOLA.VIP is built end to end, with a public demo where every screen works on sample data.</p>
+<div class="note">Numbers to add: planners signed up, events created and signs scanned.</div>"""),
+    ("learned","What I learned","""<p>The best feature was a tiny one: a QR code on a sign that says "find your table". It solved the most stressful moment of the day for guests and planners alike, and everything else was built around it.</p>"""),
   ],
   next=("/rezzo/","Rezzo"))
 
