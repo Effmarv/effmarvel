@@ -177,7 +177,7 @@ d("Try everything before paying","A free account and a public demo let planners 
 <li><b>Per-sign scan tracking</b>, so planners can see which signs get used.</li>
 <li><b>Planner and team portals</b>, plus an admin area and Stripe payments in 9 currencies.</li>
 </ul>"""),
-    ("results","Results so far","""<p>TAVOLA.VIP is built end to end, with a public demo where every screen works on sample data.</p>
+    ("results","Results so far","""<p>TAVOLA.VIP is live at <a href="https://tavola.vip">tavola.vip</a>, with a public demo where every screen works on sample data, so planners can try it before signing up.</p>
 <div class="note">Numbers to add: planners signed up, events created and signs scanned.</div>"""),
     ("learned","What I learned","""<p>The best feature was a tiny one: a QR code on a sign that says "find your table". It solved the most stressful moment of the day for guests and planners alike, and everything else was built around it.</p>"""),
   ],

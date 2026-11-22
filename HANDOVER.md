@@ -19,4 +19,4 @@ Started 22 November 2026 in the Rezzo project. Read this first in any new projec
 4. Add real numbers to each "Results so far" section. Never invent them.
 5. Add the LinkedIn URL (the contact button on the homepage marked data-todo="linkedin").
 6. Add an og:image (public/img/og.png is referenced but doesn't exist yet).
-7. tavola.vip: owner chose a case study (done). Check whether tavola.vip is actually live; the Visit button links there.
+7. tavola.vip: owner chose a case study (done). tavola.vip confirmed live by owner.
