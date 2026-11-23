@@ -59,7 +59,7 @@ PAGES["rezzo"] = dict(
   eyebrow="Case study · UK · 2026",
   h1="Rezzo: bookings for your business, in your pocket",
   lead="A booking page, deposits, reminders, a shop and a diary for UK salons, barbers, nail techs and lash artists. One link in their Instagram bio, a flat £9 a month, and no commission on any booking.",
-  facts=[("Role","Founder, product &amp; build"),("Market","UK small service businesses"),("Platforms","Web, Android, iOS"),("Price","£9 / month, no commission")],
+  facts=[("Role","Founder, product &amp; build"),("Market","UK small service businesses"),("Platforms","Web, iPhone, Android"),("Price","£9 or £15 / month, 0% commission")],
   gallery=[(img("rezzo-booking","Booking page"),"The booking page clients see"),
            (img("rezzo-services","Service menu with categories"),"Services grouped by category"),
            (img("rezzo-checkout","Checkout with discount code"),"Pick a time, apply a code"),
@@ -70,21 +70,25 @@ PAGES["rezzo"] = dict(
     ("problem","The problem","""<p>Most small UK beauty businesses run their bookings through Instagram DMs and WhatsApp. That means hours of back-and-forth about prices and times, double bookings, and no-shows that wipe out a day's earnings.</p>
 <p>The existing tools were built for bigger salons. They charge per staff member, take a cut of each booking, or push clients into downloading an app and making an account. For a braider working alone, that's too much cost and too much friction for her clients.</p>"""),
     ("decisions","Key decisions","""
-"""+d("A flat price with no commission","£9 a month for a solo operator, £15 for a team regardless of size. Businesses keep every pound of every booking, which is easy to explain and hard for marketplace-style competitors to match.")+
+"""+d("A flat price with no commission","£9 a month for a solo operator, £15 for a team regardless of size, and 0% commission. Businesses keep every pound of every booking, which is easy to explain and hard for marketplace-style competitors to match.")+
 d("No accounts for clients","Clients book from one link with just a name and mobile number. Every extra step loses bookings, so there's no app and no sign-up on the client side.")+
 d("Instant booking on by default","Busy owners can't approve requests in the middle of an appointment, so new businesses accept bookings instantly. They can still switch to approval if they want.")+
 d("Deposits paid straight to the business","Payments go through Stripe Connect into the owner's own bank account, so deposits cut no-shows without Rezzo ever holding their money.")+
 d("Mobile first, everywhere","The owners run their business from their phone, and so do their clients. Every screen is designed at phone width first.")),
     ("built","What I built","""<ul>
-<li><b>A booking page per business</b> with services, categories, styles, team, work photos, opening hours, policies, Google reviews and a month calendar.</li>
+<li><b>A booking page per business</b> with services, categories, styles, team, work photos, opening hours, policies, Google reviews and a month calendar, plus a <b>Book now button</b> for the business's own website and printable <b>QR posters</b>.</li>
+<li><b>A home-screen app for every shop:</b> clients add the business to their phone with its own logo and book again in one tap.</li>
 <li><b>Payments:</b> deposits or full price, discount codes, and yearly plans with Bacs Direct Debit, all on Stripe.</li>
-<li><b>Owner app</b> for Android and iOS: diary, clients, staff rota, breaks, push notifications and a fingerprint or face lock.</li>
-<li><b>Keeping clients:</b> email and WhatsApp confirmations, reminders, a loyalty card, review requests and a "book again" home screen shortcut.</li>
+<li><b>iPhone and Android apps</b> for owners: diary, clients, staff rota, breaks, push notifications, a fingerprint or face lock, and update prompts when a new version is out.</li>
+<li><b>Solo or team mode:</b> a simple setup for one person, with team tools (roles, rota, a front desk view) only when there's more than one operator.</li>
+<li><b>Walk-ins:</b> a live queue that clients join by scanning a QR code at the door.</li>
+<li><b>Keeping clients:</b> memberships with member discounts, a loyalty card, rebooking reminders, review requests, and email and WhatsApp confirmations.</li>
 <li><b>A shop</b> so businesses can sell products alongside services.</li>
+<li><b>Easy sign-in</b> with Apple or Google.</li>
 <li><b>AI where it saves time:</b> it writes the business bio, drafts support replies and writes news updates.</li>
 <li><b>Support and admin:</b> an in-app help chat, a team inbox, and account deletion that meets app store rules.</li>
 </ul>"""),
-    ("results","Results so far","""<p>Rezzo is live at <a href="https://rezzo.co.uk">rezzo.co.uk</a>, with Android and iOS apps in progress for the stores. From the first line of code to a working product with payments, apps and emails took about four days and 95 shipped changes.</p>
+    ("results","Results so far","""<p>Rezzo is live at <a href="https://rezzo.co.uk">rezzo.co.uk</a>, with iPhone and Android apps for business owners. From the first line of code to a working product with payments, apps and emails took about four days and 95 shipped changes.</p>
 <div class="note">Launch is underway now. I'll add real numbers here (businesses, bookings, no-shows saved) as they come in.</div>"""),
     ("learned","What I learned","""<p>The decisions mattered more than the features. Choosing a flat price, no client accounts and instant booking shaped everything else, and they all came from picturing one person: a braider with her hands full.</p>"""),
   ],
