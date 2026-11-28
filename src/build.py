@@ -74,7 +74,7 @@ PAGES["rezzo"] = dict(
 d("Pricing","A flat £9 a month for one person and £15 for a team, with 0% commission and yearly plans at 15% off, set against per-seat and commission-based competitors.")+
 d("Barber features","Rebooking reminders, a walk-in queue clients join by scanning a QR code at the door, a front desk view, and memberships with member discounts.")+
 d("Stripe Connect payments","Deposits and full payments go straight to each shop's own Stripe account, memberships bill through the shop's Stripe, and Rezzo subscriptions take card or Bacs Direct Debit.")+
-d("App Store and Google Play launch","Signed iPhone and Android builds, store listings and screenshots, privacy and data safety forms, reviewer access, and submission through both stores.")+
+d("App Store and Google Play launch","Signed iPhone and Android builds, store listings and screenshots, privacy and data safety forms and reviewer access, taking both apps live on the App Store and Google Play.")+
 d("ICO registration and privacy","Registered with the Information Commissioner's Office as a data controller, wrote the privacy notice and terms, and built in-app account deletion to meet app store rules.")),
     ("decisions","Key decisions","""
 """+d("A flat price with no commission","£9 a month for a solo operator, £15 for a team regardless of size, and 0% commission. Businesses keep every pound of every booking, which is easy to explain and hard for marketplace-style competitors to match.")+
@@ -95,7 +95,7 @@ d("Mobile first, everywhere","The owners run their business from their phone, an
 <li><b>AI writing help:</b> the app drafts a shop\'s bio, support replies and news updates.</li>
 <li><b>Support and admin:</b> an in-app help chat, a team inbox, and account deletion that meets app store rules.</li>
 </ul>"""),
-    ("results","Results so far","""<p>Rezzo is live at <a href="https://rezzo.co.uk">rezzo.co.uk</a>, with iPhone and Android apps for business owners. It went from the first line of code to a working product with payments, apps and emails in four days, and to App Store submission in five.</p>
+    ("results","Results so far","""<p>Rezzo is live at <a href="https://rezzo.co.uk">rezzo.co.uk</a>, with iPhone and Android apps for business owners on the App Store and Google Play. It went from the first line of code to a working product with payments, apps and emails in four days, and to App Store submission in five.</p>
 """),
     ("learned","What I learned","""<p>The decisions mattered more than the features. Choosing a flat price, no client accounts and instant booking shaped everything else, and they all came from picturing one person: a braider with her hands full.</p>"""),
   ],
