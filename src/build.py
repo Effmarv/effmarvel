@@ -55,11 +55,11 @@ PAGES = {}
 
 PAGES["rezzo"] = dict(
   title="Rezzo", url="https://rezzo.co.uk",
-  desc="Case study: Rezzo, a mobile-first booking page and shop link for UK salons and barbers, £9 a month with no commission.",
-  eyebrow="Case study · UK · 2026",
-  h1="Rezzo: bookings for your business, in your pocket",
-  lead="A booking page, deposits, reminders, a shop and a diary for UK salons, barbers, nail techs and lash artists. One link in their Instagram bio, a flat £9 a month, and no commission on any booking.",
-  facts=[("Role","Founder, product &amp; build"),("Market","UK small service businesses"),("Platforms","Web, iPhone, Android"),("Price","£9 or £15 / month, 0% commission")],
+  desc="Case study: Rezzo, a booking platform for UK barbers and salons that I designed, built and launched, with iPhone and Android apps and Stripe Connect payments.",
+  eyebrow="Flagship case study · UK · 2026",
+  h1="Rezzo: a booking platform for UK barbers and salons",
+  lead="I designed, built and launched Rezzo: a booking page, payments, a walk-in queue and iPhone and Android apps for UK barbers, salons and beauty pros. One link in their Instagram bio, a flat £9 or £15 a month, and 0% commission.",
+  facts=[("Role","Founder &amp; developer: product, build, launch"),("Market","UK barbers, salons and beauty"),("Platforms","Web, iPhone, Android"),("Price","£9 or £15 / month, 0% commission")],
   gallery=[(img("rezzo-booking","Booking page"),"The booking page clients see"),
            (img("rezzo-services","Service menu with categories"),"Services grouped by category"),
            (img("rezzo-checkout","Checkout with discount code"),"Pick a time, apply a code"),
@@ -69,6 +69,13 @@ PAGES["rezzo"] = dict(
   sections=[
     ("problem","The problem","""<p>Most small UK beauty businesses run their bookings through Instagram DMs and WhatsApp. That means hours of back-and-forth about prices and times, double bookings, and no-shows that wipe out a day's earnings.</p>
 <p>The existing tools were built for bigger salons. They charge per staff member, take a cut of each booking, or push clients into downloading an app and making an account. For a braider working alone, that's too much cost and too much friction for her clients.</p>"""),
+    ("owned","What I owned","""<p>I took Rezzo from idea to launch on my own. That meant every part of the product, not only the code.</p>
+"""+d("Product decisions","Who it's for, what's in and what's out: no client accounts, instant booking by default, and a simple solo mode with team tools only when there's a team.")+
+d("Pricing","A flat £9 a month for one person and £15 for a team, with 0% commission and yearly plans at 15% off, set against per-seat and commission-based competitors.")+
+d("Barber features","Rebooking reminders, a walk-in queue clients join by scanning a QR code at the door, a front desk view, and memberships with member discounts.")+
+d("Stripe Connect payments","Deposits and full payments go straight to each shop's own Stripe account, memberships bill through the shop's Stripe, and Rezzo subscriptions take card or Bacs Direct Debit.")+
+d("App Store and Google Play launch","Signed iPhone and Android builds, store listings and screenshots, privacy and data safety forms, reviewer access, and submission through both stores.")+
+d("ICO registration and privacy","Registered with the Information Commissioner's Office as a data controller, wrote the privacy notice and terms, and built in-app account deletion to meet app store rules.")),
     ("decisions","Key decisions","""
 """+d("A flat price with no commission","£9 a month for a solo operator, £15 for a team regardless of size, and 0% commission. Businesses keep every pound of every booking, which is easy to explain and hard for marketplace-style competitors to match.")+
 d("No accounts for clients","Clients book from one link with just a name and mobile number. Every extra step loses bookings, so there's no app and no sign-up on the client side.")+
@@ -85,11 +92,11 @@ d("Mobile first, everywhere","The owners run their business from their phone, an
 <li><b>Keeping clients:</b> memberships with member discounts, a loyalty card, rebooking reminders, review requests, and email and WhatsApp confirmations.</li>
 <li><b>A shop</b> so businesses can sell products alongside services.</li>
 <li><b>Easy sign-in</b> with Apple or Google.</li>
-<li><b>AI where it saves time:</b> it writes the business bio, drafts support replies and writes news updates.</li>
+<li><b>AI writing help:</b> the app drafts a shop\'s bio, support replies and news updates.</li>
 <li><b>Support and admin:</b> an in-app help chat, a team inbox, and account deletion that meets app store rules.</li>
 </ul>"""),
-    ("results","Results so far","""<p>Rezzo is live at <a href="https://rezzo.co.uk">rezzo.co.uk</a>, with iPhone and Android apps for business owners. From the first line of code to a working product with payments, apps and emails took about four days and 95 shipped changes.</p>
-<div class="note">Launch is underway now. I'll add real numbers here (businesses, bookings, no-shows saved) as they come in.</div>"""),
+    ("results","Results so far","""<p>Rezzo is live at <a href="https://rezzo.co.uk">rezzo.co.uk</a>, with iPhone and Android apps for business owners. It went from the first line of code to a working product with payments, apps and emails in four days, and to App Store submission in five.</p>
+"""),
     ("learned","What I learned","""<p>The decisions mattered more than the features. Choosing a flat price, no client accounts and instant booking shaped everything else, and they all came from picturing one person: a braider with her hands full.</p>"""),
   ],
   next=("/lastprice/","LastPrice.ng"))
@@ -100,7 +107,7 @@ PAGES["lastprice"] = dict(
   eyebrow="Case study · Nigeria",
   h1="LastPrice.ng: your shop and bookings in one link",
   lead="A free shop link for Nigerian small sellers. Customers see prices, pick what they want, and the order lands in the seller's WhatsApp. No website and no app to download.",
-  facts=[("Role","Founder, product &amp; build"),("Market","Nigerian small sellers"),("Built for","Everyday Android, slow data"),("Price","Free, Pro ₦2,500 / month")],
+  facts=[("Role","Founder &amp; developer"),("Market","Nigerian small sellers"),("Built for","Everyday Android, slow data"),("Price","Free, Pro ₦2,500 / month")],
   gallery=[],
   sections=[
     ("problem","The problem","""<p>In Nigeria, a huge amount of small business happens on WhatsApp and Instagram. Sellers of fashion, cakes, skincare, phones and hair services answer the same question all day: <i>"How much? What's your last price?"</i></p>
@@ -129,7 +136,7 @@ PAGES["lionsvogue"] = dict(
   eyebrow="Case study · Nigeria",
   h1="Lions Vogue: discover the party, skip the queue",
   lead="An event ticketing platform and party marketplace for Nigerian nightlife. Party-goers find trending events and get QR tickets instantly. Organisers launch events fast, sell securely, scan at the door and get paid.",
-  facts=[("Role","Founder, product &amp; build"),("Market","Nigerian nightlife"),("Cities","Lagos, Abuja, Port Harcourt, Uyo"),("Model","Marketplace for organisers")],
+  facts=[("Role","Founder &amp; developer"),("Market","Nigerian nightlife"),("Cities","Lagos, Abuja, Port Harcourt, Uyo"),("Model","Marketplace for organisers")],
   gallery=[],
   sections=[
     ("problem","The problem","""<p>Nigeria's party scene moves fast, but tickets are often sold through DMs, bank transfers and paper lists. Buyers worry about fake tickets, organisers chase payments, and the door turns into a bottleneck.</p>"""),
@@ -158,7 +165,7 @@ PAGES["tavola"] = dict(
   eyebrow="Case study · Events · 2026",
   h1="TAVOLA.VIP: modern events, beautifully organised",
   lead="Software for event planners. Design invitations and printed QR signs, send 3D invitation links, collect replies, seat every guest and run the day with your own teams. Weddings, birthdays, galas and conferences, all in one place.",
-  facts=[("Role","Founder, product &amp; build"),("Market","Event planners, UK, Europe &amp; beyond"),("Platform","Web, on any phone"),("Price","Per event, from £29")],
+  facts=[("Role","Founder &amp; developer"),("Market","Event planners, UK, Europe &amp; beyond"),("Platform","Web, on any phone"),("Price","Per event, from £29")],
   gallery=[(img("tavola-home","TAVOLA.VIP homepage with a QR seating sign"),"Printed QR sign: find your table"),
            (img("tavola-designs","Invitation designs"),"20 painted invitation designs"),
            (img("tavola-create","Create an invitation"),"Create an invitation in 3 steps"),
